@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PCM2707)(type KiCad)(uri /Users/tino/GitHub/PCM2707/kicad/PCM2707.pretty)(options "")(descr ""))
+  (lib (name CMOY)(type Legacy)(uri /Users/tino/GitHub/CMOY/kicad/V1.0.1/V1.0.1.mod)(options "")(descr ""))
+)
