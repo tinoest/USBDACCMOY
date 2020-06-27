@@ -24,3 +24,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+USBDACCMOY-rescue.dcm
+USBDACCMOY-cache.lib
+USBDACCMOY-rescue.lib
