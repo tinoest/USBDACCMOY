@@ -1,44 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dc-dc
-LIBS:USBDACCMOY-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "USB DAC + CMOY"
+Date "2020-06-26"
+Rev "1.0"
+Comp "tinoest"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -56,4 +25,15 @@ U 5A00C13C
 F0 "PCM2707" 60
 F1 "PCM2707.sch" 60
 $EndSheet
+$Comp
+L Graphic:SYM_ESD_Small SYM1
+U 1 1 5EF6239B
+P 3875 1675
+F 0 "SYM1" H 3875 1815 50  0001 C CNN
+F 1 "SYM_ESD_Small" H 3875 1550 50  0001 C CNN
+F 2 "Symbols:ESD-Logo_6.6x6mm_SilkScreen" H 3875 1685 50  0001 C CNN
+F 3 "~" H 3875 1685 50  0001 C CNN
+	1    3875 1675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
